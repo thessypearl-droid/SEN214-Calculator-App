@@ -3,8 +3,7 @@
 This is a mobile scientific calculator app built for a university assignment. It is made using React Native, Expo, and TypeScript.
 
 
-[Download Android APK](https://expo.dev/artifacts/eas/application-823acad5-e4d0-4463-ad48-ecccec5b8379.apk)
-
+[Download Android APK (application-823acad5-e4d0-4463-ad48-ecccec5b8379.apk)]
 ## What this app does
 
 This app has two main modes:
