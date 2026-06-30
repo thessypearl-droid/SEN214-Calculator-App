@@ -1,50 +1,56 @@
-# Welcome to your Expo app 👋
+# Scientific Calculator App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a mobile scientific calculator app built for a university assignment. It is made using React Native, Expo, and TypeScript.
 
-## Get started
 
-1. Install dependencies
+[Download Android APK](https://expo.dev//eas/application-823acad5-e4d0-4463-ad48-ecccec5b8379.apk) 
 
+## What this app does
+
+This app has two main modes:
+
+1. **Basic Mode**
+   - Simple math like addition, subtraction, multiplication, and division.
+   - Handles brackets and parentheses.
+
+2. **Scientific Mode**
+   - Advanced functions like sin, cos, tan, and their inverses (asin, acos, atan).
+   - Hyperbolic functions (sinh, cosh, tanh).
+   - Logarithms (ln, log), square root, squares, power calculations, and factorials.
+   - Contains mathematical constants like pi and e.
+
+3. **Special Modals**
+   - **nPr and nCr**: Helps you calculate permutations and combinations easily.
+   - **STAT**: Let you input numbers separated by commas to get the Mean, Variance, and Standard Deviation instantly.
+
+## Premium Features
+
+- **Live Preview**: See the answer instantly as you type before pressing equals.
+- **Outlined Wireframe Keys**: Buttons are outlined and fill up with color when you tap them.
+- **Auto Scroll Display**: Long math equations automatically scroll horizontally so you do not lose track.
+- **Clean Typography**: Uses the Source Code Pro font for numbers and symbols.
+
+## How to run the app
+
+To run this app on your phone with Expo Go:
+
+1. Go to the project folder:
+   ```bash
+   cd SEN214Calculator
+   ```
+2. Install the packages:
    ```bash
    npm install
    ```
-
-2. Start the app
-
+3. Start the project:
    ```bash
    npx expo start
    ```
+4. Scan the QR code on your terminal using the Expo Go app.
 
-In the output, you'll find options to open the app in a
+## Download the App
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+You can download the Android APK file to install the app directly on your phone:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+[Download Android APK](https://expo.dev/artifacts/eas/application-823acad5-e4d0-4463-ad48-ecccec5b8379.apk)
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
