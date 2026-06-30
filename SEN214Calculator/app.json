@@ -19,7 +19,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.thessy_pearl.SEN214Calculator"
     },
     "web": {
       "output": "static",
@@ -42,6 +43,11 @@
     ],
     "experiments": {
       "reactCompiler": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "56b26a62-1a2d-4006-aff8-192e81001d67"
+      }
     }
   }
 }
